@@ -8,7 +8,7 @@ interface CartDrawerProps {
   onClose: () => void;
 }
 
-const SUPPLIER_PHONE = "5511999999999"; // Substitua pelo número real
+const SUPPLIER_PHONE = "8107045638787"; // Substitua pelo número real
 
 const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
   const { cart, removeFromCart, updateQuantity, totalPrice, clearCart } = useCart();
