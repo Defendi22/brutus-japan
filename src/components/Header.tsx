@@ -13,12 +13,12 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
     <header className="fixed top-0 left-0 right-0 bg-orange-100 backdrop-blur-md z-50 border-b border-amber-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="bg-green-700 p-2 rounded-lg">
+          <div className="bg-orange-500 p-2 rounded-lg">
             <Leaf className="text-white h-6 w-6" />
           </div>
           <div>
             <h1 className="text-2xl font-bold text-gray-900 tracking-tight">BRUTUS</h1>
-            <p className="text-[10px] text-green-600 font-bold uppercase tracking-widest leading-none">Vegetables Japan</p>
+            <p className="text-[10px] text-orange-500 font-bold uppercase tracking-widest leading-none">Vegetables Japan</p>
           </div>
         </div>
 
