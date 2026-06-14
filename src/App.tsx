@@ -49,8 +49,8 @@ function App() {
                     </ul>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <img src="https://images.unsplash.com/photo-1595855759920-86582396756a?q=80&w=400&auto=format&fit=crop" alt="Vegetal" className="rounded-3xl shadow-xl rotate-3" />
-                    <img src="https://images.unsplash.com/photo-1592419044706-39796d40f98c?q=80&w=400&auto=format&fit=crop" alt="Vegetal" className="rounded-3xl shadow-xl -rotate-6 mt-8 md:mt-12" />
+                    <img src="https://www.adufertil.com.br/wp-content/uploads/2024/09/Capa_Texto_1_Blog_Setembro_2024-scaled.jpg" alt="Vegetal" className="rounded-3xl shadow-xl rotate-3" />
+                    <img src="https://realtime1.com.br/wp-content/uploads/2024/08/Como-plantar-beterraba3.jpg" alt="Vegetal" className="rounded-3xl shadow-xl -rotate-6 mt-8 md:mt-12" />
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ function App() {
         {/* Floating Contact Buttons */}
         <div className="fixed bottom-6 left-6 z-40 flex flex-col gap-3 md:hidden">
           <a 
-            href="https://wa.me/5511999999999" 
+            href="https://wa.me/817045638787" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all"
