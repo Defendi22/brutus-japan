@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all group"
+      className="bg-orange-50 rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all group"
     >
       <div className="relative h-48 overflow-hidden">
         <img 
@@ -24,8 +24,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           alt={product.name} 
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-lg">
-          <p className="text-[10px] font-bold text-green-700 uppercase tracking-tighter">{product.category}</p>
+        <div className="absolute top-3 left-3 bg-white90 backdrop-blur-sm px-2 py-1 rounded-lg">
+          <p className="text-[10px] font-bold text-amber-700 uppercase tracking-tighter">{product.category}</p>
         </div>
       </div>
       
@@ -49,7 +49,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           
           <button 
             onClick={() => addToCart(product)}
-            className="bg-green-600 hover:bg-green-700 text-white p-3 rounded-xl transition-colors shadow-lg shadow-green-100 group-hover:scale-110"
+            className="bg-amber-900 hover:bg-amber-800 text-white p-3 rounded-xl transition-colors shadow-lg shadow-amber-100 group-hover:scale-110"
           >
             <Plus className="h-5 w-5" />
           </button>

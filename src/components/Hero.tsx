@@ -3,17 +3,17 @@ import { ChevronRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden">
-      <div className="absolute top-0 right-0 -z-10 w-1/3 h-full bg-green-50 rounded-bl-[100px]" />
+    <section className="relative pt-32 pb-20 overflow-hidden bg-orange-100">
+      <div className="absolute top-0 right-0 -z-10 w-1/3 h-full  rounded-bl-[100px]" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="inline-block py-1 px-3 rounded-full bg-green-100 text-green-700 text-sm font-semibold mb-6">
+            <span className="inline-block py-1 px-3 rounded-full bg-orange-400 text-amber-100 text-sm font-semibold mb-6">
               🇯🇵 Produtos Locais no Japão
             </span>
             <h2 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mb-6">
-              O Sabor do <span className="text-green-700">Brasil</span>, Cultivado no <span className="text-red-600">Japão</span>.
+              O Sabor do <span className="text-yellow-500">Brasil</span>, Cultivado no <span className="text-red-600">Japão</span>.
             </h2>
             <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-lg">
               Qualidade Brutus: Cultivados com carinho em solo japonês, entregues frescos na sua porta ou comércio.
@@ -21,14 +21,14 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#catalogo" 
-                className="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all shadow-lg shadow-green-200"
+                className="inline-flex items-center justify-center px-8 py-4 bg-amber-900 text-white font-bold rounded-xl hover:bg-amber-00 transition-all"
               >
                 Ver Catálogo
                 <ChevronRight className="ml-2 h-5 w-5" />
               </a>
               <a 
                 href="#contato" 
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 border-2 border-gray-100 font-bold rounded-xl hover:border-green-200 transition-all"
+                className="inline-flex items-center justify-center px-8 py-4 bg-orange-100 text-gray-900 border-2 border-gray-100 font-bold rounded-xl hover:border-amber-600 transition-all"
               >
                 Saiba Mais
               </a>

@@ -19,11 +19,11 @@ function App() {
           <Catalog />
           
           {/* Why Choose Us Section */}
-          <section id="sobre" className="py-20 bg-white">
+          <section id="sobre" className="py-20 bg-orange-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="bg-green-600 rounded-[40px] p-8 md:p-12 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-green-500 rounded-full -mr-32 -mt-32 opacity-50" />
-                <div className="absolute bottom-0 left-0 w-32 h-32 bg-green-700 rounded-full -ml-16 -mb-16 opacity-50" />
+              <div className="bg-amber-600 rounded-[40px] p-8 md:p-12 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500 rounded-full -mr-32 -mt-32 opacity-50" />
+                <div className="absolute bottom-0 left-0 w-32 h-32 bg-amber-700 rounded-full -ml-16 -mb-16 opacity-50" />
                 
                 <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
                   <div>
@@ -38,11 +38,11 @@ function App() {
                       ].map((item, i) => (
                         <li key={i} className="flex gap-4">
                           <div className="h-6 w-6 rounded-full bg-white flex items-center justify-center shrink-0 mt-1">
-                            <span className="text-green-600 text-xs font-bold">{i+1}</span>
+                            <span className="text-amber-600 text-xs font-bold">{i+1}</span>
                           </div>
                           <div>
                             <h4 className="text-white font-bold text-lg">{item.title}</h4>
-                            <p className="text-green-100 text-sm">{item.desc}</p>
+                            <p className="text-amber-100 text-sm">{item.desc}</p>
                           </div>
                         </li>
                       ))}

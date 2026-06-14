@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
   const { totalItems } = useCart();
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-green-100">
+    <header className="fixed top-0 left-0 right-0 bg-orange-100 backdrop-blur-md z-50 border-b border-amber-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="bg-green-700 p-2 rounded-lg">
@@ -23,9 +23,9 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
         </div>
 
         <nav className="hidden md:flex items-center gap-8 font-medium text-gray-600">
-          <a href="#" className="hover:text-green-600 transition-colors">Início</a>
-          <a href="#catalogo" className="hover:text-green-600 transition-colors">Produtos</a>
-          <a href="#sobre" className="hover:text-green-600 transition-colors">Sobre Nós</a>
+          <a href="#" className="hover:text-amber-600 transition-colors">Início</a>
+          <a href="#catalogo" className="hover:text-amber-600 transition-colors">Produtos</a>
+          <a href="#sobre" className="hover:text-amber-600 transition-colors">Sobre Nós</a>
         </nav>
 
         <button 

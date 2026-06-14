@@ -18,7 +18,7 @@ const Catalog: React.FC = () => {
   });
 
   return (
-    <section id="catalogo" className="py-20 bg-gray-50/50">
+    <section id="catalogo" className="py-20 bg-orange-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="flex-1">
@@ -34,7 +34,7 @@ const Catalog: React.FC = () => {
                 placeholder="Buscar legumes..." 
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 pr-4 py-2 bg-white border border-gray-100 rounded-full text-sm focus:ring-2 focus:ring-green-500 outline-none w-full sm:w-64"
+                className="pl-10 pr-4 py-2 bg-white border border-gray-100 rounded-full text-sm focus:ring-2 focus:ring-amber-500 outline-none w-full sm:w-64"
               />
             </div>
             <div className="flex flex-wrap gap-2">
@@ -44,8 +44,8 @@ const Catalog: React.FC = () => {
                   onClick={() => setActiveCategory(cat)}
                   className={`px-4 py-2 rounded-full text-xs md:text-sm font-bold transition-all ${
                     activeCategory === cat 
-                      ? 'bg-green-600 text-white shadow-lg shadow-green-100' 
-                      : 'bg-white text-gray-600 border border-gray-100 hover:border-green-200'
+                      ? 'bg-amber-900 text-white shadow-lg shadow-amber-100' 
+                      : 'bg-white text-gray-600 border border-gray-100 hover:border-amber-300'
                   }`}
                 >
                   {cat}
