@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-xs">
-          <p>© {new Date().getFullYear()} Brutus Japan. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Brutus Japão. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
