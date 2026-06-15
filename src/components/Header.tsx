@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
           </div>
           <div>
             <h1 className="text-2xl font-bold text-gray-900 tracking-tight">BRUTUS</h1>
-            <p className="text-[10px] text-orange-500 font-bold uppercase tracking-widest leading-none">Vegetables Japan</p>
+            <p className="text-[10px] text-orange-500 font-bold uppercase tracking-widest leading-none">Japão</p>
           </div>
         </div>
 
