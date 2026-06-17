@@ -13,17 +13,17 @@ const Footer: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-white tracking-tight">BRUTUS</h1>
-                <p className="text-[10px] text-amber-500 font-bold uppercase tracking-widest leading-none">Japan</p>
+                <p className="text-[10px] text-amber-500 font-bold uppercase tracking-widest leading-none">Japão</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Levando o melhor da agricultura japonesa para sua mesa. Qualidade, frescor e respeito à terra.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-amber-600 transition-colors">
+              <a href="#" className="p-2 rounded-lg hover:bg-amber-600 transition-colors">
                 <Globe className="h-5 w-5" />
               </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-amber-600 transition-colors">
+              <a href="#" className="p-2  rounded-lg hover:bg-amber-600 transition-colors">
                 <Share2 className="h-5 w-5" />
               </a>
             </div>
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               <input 
                 type="email" 
                 placeholder="Seu e-mail" 
-                className="bg-amber-900 border-none rounded-lg px-4 py-2 w-full text-sm focus:ring-2 focus:ring-amber-900 outline-none"
+                className="border-none rounded-lg px-4 py-2 w-full text-sm focus:ring-2 focus:ring-amber-900 outline-"
               />
               <button className="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-lg text-sm font-bold transition-colors">
                 Ok
