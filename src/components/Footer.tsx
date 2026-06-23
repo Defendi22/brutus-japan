@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, Globe, Share2, Phone, MapPin, Mail } from 'lucide-react';
+import { Globe, Share2, Phone, MapPin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -7,13 +7,16 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="bg-amber-600 p-2 rounded-lg">
-                <Leaf className="text-white h-6 w-6" />
-              </div>
+            <div className="flex items-center gap-3 mb-6">
+              <img 
+                src="/assets/logobrutussemfundo.png" 
+                alt="Logo Brutus" 
+                className="h-24 w-auto brightness-0 saturate-100"
+                style={{filter: 'invert(48%) sepia(89%) saturate(1270%) hue-rotate(5deg) brightness(102%)'}}
+              />
               <div>
                 <h1 className="text-2xl font-bold text-white tracking-tight">BRUTUS</h1>
-                <p className="text-[10px] text-amber-500 font-bold uppercase tracking-widest leading-none">Japão</p>
+                <p className="text-[10px] text-orange-500 font-bold uppercase tracking-widest leading-none">Japão</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
