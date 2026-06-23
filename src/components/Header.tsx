@@ -1,7 +1,6 @@
 import React from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { useCart } from '../context/CartContext';
-import logobrutussemfundo from './assets/logobrutussemfundo.png';
 
 interface HeaderProps {
   onCartClick: () => void;
@@ -15,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img 
-            src={logobrutussemfundo}
+            src="/logobrutussemfundo.png"
             alt="Logo Brutus" 
             className="h-25 w-auto"
           />
