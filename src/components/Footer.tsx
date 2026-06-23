@@ -1,5 +1,6 @@
 import React from 'react';
 import { Globe, Share2, Phone, MapPin, Mail } from 'lucide-react';
+import logobrutussemfundo from './assets/logobrutussemfundo.png';
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <img 
-                src="/assets/logobrutussemfundo.png" 
+                src={logobrutussemfundo}
                 alt="Logo Brutus" 
                 className="h-24 w-auto brightness-0 saturate-100"
                 style={{filter: 'invert(48%) sepia(89%) saturate(1270%) hue-rotate(5deg) brightness(102%)'}}
